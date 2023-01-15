@@ -79,7 +79,7 @@ body{font-family: 'Work Sans', sans-serif;}
     margin-bottom: 20px;
 }
 /********team part style end********/
-.feature{padding: 15px;
+.feature{
 width:586px;}
 .Feature-title {
     Width: 468px;
@@ -99,13 +99,14 @@ width:586px;}
     margin: 20px 0px;
 }
 .feature-box {
+    width: 400px;
     font-Weight: 400;
     font-Size: 16px;
     Line-height: 26px;
     background-color: #3C6255;
     color: #fff;
     margin-bottom: 15px;
-    padding: 30px;
+    padding: 25px;
     border-radius: 8px;
 }
 .feature-image {
@@ -245,6 +246,7 @@ width:586px;}
     .feature-boxes{
        flex-direction: column;
        width: 100%;}
+       .feature-box{width: 87%;}
     .feature-image{width: 100%;
     padding: 0px;}
     /*for box section*/
