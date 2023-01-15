@@ -109,7 +109,48 @@ width:586px;}
     border-radius: 8px;
 }
 /********feature part style end********/
+.box-part{width: 100%;}
+.box-info {
+    width: 542px;
+    margin: 0px 0px 60px 50px;
+}
+.box-info h2{
+    font-size: 45px;
+    Line-height: 52.79px;
+    font-Weight: 700;
+}
+.box-detail{font-Weight:400;
+    font-Size:16px;
+    Line-height:26px;}
+.boxes{display:flex;justify-content: space-around;
+   align-items: center;}
+.box{border: 2px solid #3C6255;
+    text-align: center;
+    width: 220px;
+    height: 170px;
+    border-radius: 8px;
+    padding-top: 40px;
+    }
+.box img h2 p{margin-top: 50%;}
 
+/********feature part style end********/
+.sponsor{width: 100%;}
+.sponser-media{
+    display: flex;
+    justify-content: space-around;
+}
+.sopnsor-info {
+    width: 576px;
+    margin: auto;
+    text-align: center;}
+.sponsor-title {
+    font-size: 45px;
+    Line-height: 52.79px;
+    font-Weight: 700;
+}
+.sopnsor-info p{margin: 20px 0px;}
+/*******sponsor part end********/
+/*******sponsor part end********/
 
 
 @media screen and (max-width:567px) {
@@ -130,7 +171,7 @@ width:586px;}
     .team-title{width: 100%;}
     .team-info{width: 100%;
     text-align: center;}
-    .team-details{width: 100%;}
+    .team-details{width: 90%;margin-right: 0px;}
     /* for feature section */
     .feature{width: 100%;}
     .Feature-title{width: 100%;}
@@ -138,7 +179,28 @@ width:586px;}
     .feature-boxes{
        flex-direction: column;
        width: 100%;}
-
     .feature-image{width: 100%;
     padding: 0px;}
+    /*for box section*/
+    .box-part{width: 100%; margin: 0px; }
+    .box-info{width: 100%;
+    margin-left: 0PX;}
+    .box-info h2{text-align: center}
+    .box-detail{width: 100%;
+        text-align: center;}
+    .boxes{width: 100%;
+        flex-direction: column;}
+    .box{margin-bottom: 15px;}
+    /*for sponsor part*/
+    .sponsor{width: 100%;}
+    .sopnsor-info{width: 100%;}
+    .sponser-media {
+        width: 100%;
+        flex-direction: column;
+    justify-content: center;}
+    .sponser-media img {
+    width: 75%;
+    height: 75%;margin-top: 20px;
+    margin: auto;}
+
 }
